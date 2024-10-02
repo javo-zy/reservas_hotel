@@ -4,15 +4,14 @@ Este proyecto es una aplicación sencilla que permite a los usuarios crear y vis
 
 ## Patrones de Diseño Implementados:
 
-1. **Factory**: Para crear diferentes tipos de reservas (Individual, Doble, Suite).
-2. **Singleton**: Para gestionar una única instancia de todas las reservas.
+**Factory**: Para crear diferentes tipos de reservas (Individual, Doble, Suite).
+**Singleton**: Para gestionar una única instancia de todas las reservas.
 
 ## Funcionalidad:
 
 - Los usuarios pueden ingresar su nombre, fechas de entrada y salida, el número de habitaciones y seleccionar el tipo de habitación.
 - Las reservas se almacenan y se muestran en una lista.
 
-## Instalación y Uso:
-
+## Como instalar la web en tu pc:
 1. Clona el repositorio.
-2. Abre `index.html` en un navegador para utilizar el sistema de reservas.
+2. Abre `index.html` en un navegador para utilizar la web.

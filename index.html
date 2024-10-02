@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Reservas de Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="reservation-container">
+        <h1>Reservas de Hotel</h1>
+        <form id="reservationForm">
+            <input type="text" id="name" placeholder="Nombre" required>
+            <input type="date" id="checkIn" required>
+            <input type="date" id="checkOut" required>
+            <input type="number" id="rooms" placeholder="Número de Habitaciones" required>
+            <select id="roomType">
+                <option value="single">Individual</option>
+                <option value="double">Doble</option>
+                <option value="suite">Suite</option>
+            </select>
+            <button type="submit">Crear Reserva</button>
+        </form>
+        <div id="reservationsList">
+            <h2>Reservas:</h2>
+            <ul id="reservations"></ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

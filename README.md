@@ -15,3 +15,4 @@ Este proyecto es una aplicación sencilla que permite a los usuarios crear y vis
 ## Como instalar la web en tu pc:
 1. Clona el repositorio.
 2. Abre `index.html` en un navegador para utilizar la web.
+3. O puedes usar el siguiente link "https://javo-zy.github.io/reservas_hotel/"
